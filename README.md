@@ -31,6 +31,7 @@ Step-by-step walkthroughs for common integration scenarios:
 | Guide | Description |
 |-------|-------------|
 | [Export Content View as HTML](guides/content-view-export/export-html.md) | Automate the export of a content view as a self-contained HTML/ZIP archive |
+| [Searching the Knowledge Base](guides/search/search-guide.md) | Run full-text searches with filters, facets, sorting, and pagination via `POST /search` |
 
 ## Code Examples
 
@@ -40,6 +41,8 @@ Working code examples organized by use case and language:
 |----------|----------|------|
 | Content View Export | Java | [`examples/content-view-export/java/`](examples/content-view-export/java/) |
 | Content View Export | curl | [`examples/content-view-export/curl/`](examples/content-view-export/curl/) |
+| Search | Python | [`examples/search/python/`](examples/search/python/) |
+| Search | curl | [`examples/search/curl/`](examples/search/curl/) |
 
 ## Prerequisites
 
