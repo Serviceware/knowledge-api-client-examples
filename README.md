@@ -32,6 +32,7 @@ Step-by-step walkthroughs for common integration scenarios:
 |-------|-------------|
 | [Export Content View as HTML](guides/content-view-export/export-html.md) | Automate the export of a content view as a self-contained HTML/ZIP archive |
 | [Searching the Knowledge Base](guides/search/search-guide.md) | Run full-text searches with filters, facets, sorting, and pagination via `POST /search` |
+| [Working with Entity Relations](guides/relations/relations-guide.md) | Retrieve attached, linked, and embedded relations between entities via `GET /relation/{type}/{id}` |
 
 ## Code Examples
 
@@ -43,6 +44,8 @@ Working code examples organized by use case and language:
 | Content View Export | curl | [`examples/content-view-export/curl/`](examples/content-view-export/curl/) |
 | Search | Python | [`examples/search/python/`](examples/search/python/) |
 | Search | curl | [`examples/search/curl/`](examples/search/curl/) |
+| Relations | Python | [`examples/relations/python/`](examples/relations/python/) |
+| Relations | curl | [`examples/relations/curl/`](examples/relations/curl/) |
 
 ## Prerequisites
 
