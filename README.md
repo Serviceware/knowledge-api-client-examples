@@ -34,6 +34,7 @@ Step-by-step walkthroughs for common integration scenarios:
 | [Searching the Knowledge Base](guides/search/search-guide.md) | Run full-text searches with filters, facets, sorting, and pagination via `POST /search` |
 | [Resolving File References in Text Content](guides/file-management/file-links-in-text-content.md) | Resolve `data-sabio-file-id` HTML attributes to file metadata via `GET /fm/{id}` and to pre-signed download URLs via `GET /fm/url/{id}` |
 | [Working with Entity Relations](guides/relations/relations-guide.md) | Retrieve attached, linked, and embedded relations between entities via `GET /relation/{type}/{id}` |
+| [Generating AI Answers](guides/answer/generating-answers.md) | Generate grounded LLM answers via blocking `POST /ai/answer` or streaming `POST /ai/answer/sse` |
 
 ## Code Examples
 
@@ -49,6 +50,8 @@ Working code examples organized by use case and language:
 | File Management | curl | [`examples/file-management/curl/`](examples/file-management/curl/) |
 | Relations | Python | [`examples/relations/python/`](examples/relations/python/) |
 | Relations | curl | [`examples/relations/curl/`](examples/relations/curl/) |
+| Answer | Python | [`examples/answer/python/`](examples/answer/python/) |
+| Answer | curl | [`examples/answer/curl/`](examples/answer/curl/) |
 
 ## Prerequisites
 
