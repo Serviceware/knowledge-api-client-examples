@@ -32,6 +32,7 @@ Step-by-step walkthroughs for common integration scenarios:
 |-------|-------------|
 | [Export Content View as HTML](guides/content-view-export/export-html.md) | Automate the export of a content view as a self-contained HTML/ZIP archive |
 | [Searching the Knowledge Base](guides/search/search-guide.md) | Run full-text searches with filters, facets, sorting, and pagination via `POST /search` |
+| [Resolving File References in Text Content](guides/file-management/file-links-in-text-content.md) | Resolve `data-sabio-file-id` HTML attributes to file metadata via `GET /fm/{id}` and to pre-signed download URLs via `GET /fm/url/{id}` |
 | [Working with Entity Relations](guides/relations/relations-guide.md) | Retrieve attached, linked, and embedded relations between entities via `GET /relation/{type}/{id}` |
 
 ## Code Examples
@@ -44,6 +45,8 @@ Working code examples organized by use case and language:
 | Content View Export | curl | [`examples/content-view-export/curl/`](examples/content-view-export/curl/) |
 | Search | Python | [`examples/search/python/`](examples/search/python/) |
 | Search | curl | [`examples/search/curl/`](examples/search/curl/) |
+| File Management | Python | [`examples/file-management/python/`](examples/file-management/python/) |
+| File Management | curl | [`examples/file-management/curl/`](examples/file-management/curl/) |
 | Relations | Python | [`examples/relations/python/`](examples/relations/python/) |
 | Relations | curl | [`examples/relations/curl/`](examples/relations/curl/) |
 
